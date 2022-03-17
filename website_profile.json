@@ -1,0 +1,147 @@
+{
+  "www.greenmedinfo.com": {
+    "domain": "www.greenmedinfo.com",
+    "name": "Green Med Info",
+    "article_title": "div.field-title h1",
+    "article_content": "div.field-body p",
+    "author_name": "div.post-date-custom div b a",
+    "article_urls": "div.views-field-title span.field-content a::attr(href)",
+    "published_time": "div.post-date-custom div",
+    "published_time_regex": "([A-Z][a-z]+ [0-9]+th [0-9]{4})"
+  },
+
+  "www.ageofautism.com": {
+    "domain": "ageofautism.com",
+    "name": "Age of Autism",
+    "article_title": "span.entry-title a",
+    "article_content": "div.entry-body p",
+    "author_name": "span.post-footers a[rel='author']",
+    "article_urls": "h2.entry-header span.entry-title a::attr(href)",
+    "published_time": "span.post-footers",
+    "published_time_regex": "([A-Z][a-z]+ [0-9]+.*?[0-9]{4})"
+  },
+
+  "vaxxter.com": {
+    "domain": "vaxxter.com",
+    "name": "Vaxxter",
+    "article_title": "h1.entry-title",
+    "article_content": "div.entry-content>p",
+    "author_name": "span.entry-meta-author a",
+    "article_urls": "h3.content-list-title a::attr(href)",
+    "published_time": "meta[property='article:published_time']::attr(content)",
+    "published_time_regex": "([0-9]+-[0-9]+-[0-9]+)T"
+  },
+
+  "modernalternativemama.com": {
+    "domain": "modernalternativemama.com",
+    "name": "Modern Alternative Mama",
+    "article_title": "div.post-header h1",
+    "article_content": "div.post-content p",
+    "author_name": "div.author-title a",
+    "article_urls": "div.post-header h2 a::attr(href)",
+    "published_time": "meta[property='article:published_time']::attr(content)",
+    "published_time_regex": "([0-9]+-[0-9]+-[0-9]+)T"
+  },
+
+  "thinkingmomsrevolution.com": {
+    "domain": "thinkingmomsrevolution.com",
+    "name": "The Thinking Mom's Revolution",
+    "article_title": "h1.entry-title",
+    "article_content": "div.entry-content p",
+    "author_name": "span.author a",
+    "article_urls": "h2.entry-title a::attr(href)",
+    "published_time": "meta[property='article:published_time']::attr(content)",
+    "published_time_regex": "([0-9]+-[0-9]+-[0-9]+)T"
+  },
+
+  "avn.org.au": {
+    "domain": "avn.org.au",
+    "name": "Australian Vaccination-risks Network",
+    "article_title": "h1.entry-title",
+    "article_content": "div.entry-content>p",
+    "author_name": "span.entry-author-name",
+    "article_urls": "a.entry-title-link::attr(href)",
+    "published_time": "meta[property='article:published_time']::attr(content)",
+    "published_time_regex": "([0-9]+-[0-9]+-[0-9]+)T"
+  },
+
+  "thevaccinereaction.org": {
+    "domain": "thevaccinereaction.org",
+    "name": "The Vaccine Reaction",
+    "article_title": "h1.entry-title",
+    "article_content": "div.entry-content p",
+    "author_name": "div.byline",
+    "article_urls": "h2.entry-title a::attr(href)",
+    "published_time": "div.entry_date::text",
+    "published_time_regex": "([A-Z][a-z]+ [0-9]+.*?[0-9]{4})"
+  },
+
+  "kellybroganmd.com": {
+    "domain": "kellybroganmd.com",
+    "name": "Kelly Brogan MD",
+    "article_title": "h1.entry-title",
+    "article_content": "div.pbs-main-wrapper p",
+    "author_name": "span.entry-author-name",
+    "article_urls": "a.entry-title-link::attr(href)",
+    "published_time": "meta[property='article:published_time']::attr(content)",
+    "published_time_regex": "([0-9]+-[0-9]+-[0-9]+)T"
+  },
+
+  "www.livingwhole.org": {
+    "domain": "www.livingwhole.org",
+    "name": "Living Whole",
+    "article_title": "h1.entry-title",
+    "article_content": "div.entry-content p",
+    "author_name": "span.entry-author-name",
+    "article_urls": "a.entry-title-link::attr(href)",
+    "published_time": "meta[property='article:published_time']::attr(content)",
+    "published_time_regex": "([0-9]+-[0-9]+-[0-9]+)T"
+  },
+
+  "www.momsacrossamerica.com": {
+    "domain": "www.momsacrossamerica.com",
+    "name": "Mom across America",
+    "article_title": "div.headline",
+    "article_content": "div.content p",
+    "author_name": "span.linked-signup-name",
+    "article_urls": "div.page-excerpt h3 a::attr(href)",
+    "published_time": "div.byline",
+    "published_time_regex": "([A-Z][a-z]+ [0-9]+.*?[0-9]{4})"
+  },
+
+  "vactruth.com": {
+    "domain": "vactruth.com",
+    "name": "VacTruth",
+    "article_title": "h1.entry-title",
+    "article_content": "div.awr p",
+    "author_name": "div.met span a",
+    "article_urls": "h2.entry-title a::attr(href)",
+    "published_time": "meta[property='article:published_time']::attr(content)",
+    "published_time_regex": "([0-9]+-[0-9]+-[0-9]+)T"
+  },
+
+  "www.focusforhealth.org": {
+    "domain": "www.focusforhealth.org",
+    "name": "Focus For Health",
+    "article_title": "h1.entry-title",
+    "article_content": "section.entry-content p",
+    "author_name": "h3.author-name a",
+    "article_urls": "ul.rows li.block-row a::attr(href)",
+    "published_time": "meta[property='article:published_time']::attr(content)",
+    "published_time_regex": "([0-9]+-[0-9]+-[0-9]+)T"
+  },
+
+  "info.cmsri.org": {
+    "domain": "info.cmsri.org",
+    "name": "CMSRI",
+    "article_title": "#hs_cos_wrapper_name",
+    "article_content": "#hs_cos_wrapper_post_body p",
+    "author_name": "a.author-link",
+    "article_urls": "div.post-item h2 a::attr(href)",
+    "published_time": "#hubspot-author_data::text",
+    "published_time_regex": "([A-Z][a-z]+ [0-9]+.*?[0-9]{4})"
+  }
+
+
+
+}
